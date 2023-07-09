@@ -1,0 +1,12 @@
+.order-container{
+    width:900px;
+    height: 90vh;
+    margin:40px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    background-image: url('https://images.pexels.com/photos/13985154/pexels-photo-13985154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+h2{
+    color:white;
+    margin-top: 3px;
+}

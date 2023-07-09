@@ -1,0 +1,23 @@
+.menu-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+}
+ .item-card{
+    width:250px;
+    height:300px;
+    margin-bottom:30px;
+} 
+.menu-container-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c84d28;
+  flex-direction: column;
+  margin-left: 250px;
+  height: 200px;
+}
+.menu-container-details h1{
+  color:white;
+  font-weight: bolder;
+}

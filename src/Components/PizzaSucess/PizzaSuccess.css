@@ -1,0 +1,23 @@
+.image-container{
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  { left:500px; top:0px;}
+    75%  { left:700px; top:0px;}
+    100% { left:1000px; top:0px;}
+  }
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .image-container img {
+    margin-top: 60px;
+  }
+  
+  

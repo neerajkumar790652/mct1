@@ -1,0 +1,125 @@
+.main-container{
+display:flex
+}
+.menu-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+ width:15em;
+height:100vh;
+position: fixed;
+top:0;
+left:0
+/* background: #000; */
+}
+.pic-container{
+width:71em;
+height: 100vh;
+
+background-color:green;
+overflow-x: hidden;
+margin-left:245px;
+}
+/* .menu-pic-container{
+    /* padding-top: 2esm; */
+
+   
+
+.menu-menu-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-container{
+    background-color:#5B7555;
+    display: flex;
+    justify-content: space-between;
+}
+.pic-left-container{
+    width:35em;
+    /* background: #000; */
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding:10px;
+    margin-left:80px;
+}
+.pic-left-container h1{
+    font-size:2.6em;
+    font-weight: bolder;
+    /* padding-left:4em; */
+}
+.pic-left-container p{
+    margin: .3em;
+    text-align: left;
+    
+}
+.pic-left-container input{
+    width:20em;
+    height: 38px;
+    /* margin-left:6.5em; */
+    margin-top: .7em;
+    padding: .5em;
+    outline: none;
+}
+.pic-left-container button{
+width:120px;
+height:40px;
+padding:.3em;
+/* border: 1px solid black; */
+background-color: #c84d28;
+margin-left:300px;
+margin-top:-39px;
+font-weight: bolder;
+}
+
+.pic-right-container{
+    width:35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+.pic-right-container img {
+    /* box-shadow: 0 0 10px 10px #5B7555; */
+    border-radius: 5px;
+    width:500px;
+    height: 400px;
+}
+.menu-social-container{
+    display: flex;
+    flex-direction: column;
+  
+}
+.social {
+    display: flex;
+    /* margin-left: 10px; */
+
+   
+}
+.social a {
+    margin-left: 35px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.order-button{
+    width:250px;
+    background-color: #c84d28;
+    color:white;
+    padding:5px;
+    text-align: center;
+
+}
+.heading{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.menu-item{
+    margin-left:120px;
+    padding:15px;
+    margin-top: 20px;
+}
